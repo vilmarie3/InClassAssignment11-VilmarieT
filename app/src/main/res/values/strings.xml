@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">InClassAssignment11-VilmarieT</string>
+    <string name="title">Pielicious</string>
+    <string name="button">Find your Pie</string>
+    <string name="book_hint">Recipe Book Title</string>
+    <string name="book_button">Submit Title</string>
+    <string name="pie_type">Pie Type</string>
+    <string name="number_fruit">Number of Fruits</string>
+    <string name="lattice">Includes Lattice Artwork</string>
+    <string name="find">Find Recipe</string>
+    <string name="toast">Looking For Recipe</string>
+    <string name="sign_in">Sign IN</string>
+    <string name="google_status_fmt">google User: %s</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="create_pie">Create Pie</string>
+    905696542256-bquc5vlivbpaf7qks9b0t6k6jhaerv4h.apps.googleusercontent.com
+</resources>

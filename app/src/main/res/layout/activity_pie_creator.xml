@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context=".PieCreator">
+    <EditText
+        android:id="@+id/edit_text_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/book_hint"/>
+
+    <Button
+        android:id="@+id/book_title_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:background="@color/metallic_blue"
+        android:textColor="@color/bone_white"
+        android:padding="8dp"
+        android:fontFamily="@font/macondo"
+        android:text="@string/book_button"
+        android:onClick="submit"/>
+
+    <EditText
+        android:id="@+id/pie_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pie_type"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_number_fruits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/number_fruit"
+        android:layout_marginBottom="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_lattice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lattice"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/submit_recipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find"
+        android:layout_gravity="center"
+        android:textColor="@color/bone_white"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/macondo"
+        android:background="@color/metallic_blue"
+        android:onClick="findRecipe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="175dp"
+        android:fontFamily="@font/macondo"
+        android:id="@+id/date"
+        />
+
+</LinearLayout>
